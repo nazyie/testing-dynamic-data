@@ -41,6 +41,10 @@ public class ReportGenerationService {
 
     }
 
+    // generic this method to handle different report type
+
+    // allow the custom mapper to be passed in
+
     private void generatePdfReport(ReportTemplate reportTemplate) {
         ReportTypeA reportType = new ReportTypeA();
 
